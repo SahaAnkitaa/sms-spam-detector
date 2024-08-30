@@ -14,6 +14,7 @@ from nltk.corpus import stopwords
 
 # Set the NLTK data path to the local nltk_data folder
 nltk.data.path.append(os.path.join(os.getcwd(), 'nltk_data'))
+nltk.data.path.append(nltk_data_dir)
 
 ps = PorterStemmer()
 
